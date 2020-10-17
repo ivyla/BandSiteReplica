@@ -51,6 +51,9 @@ body, html {
     width: 100vw;
 }
 
+.the-band {
+    background: white;
+}
 .bios {
     display: flex;
     flex-direction: row;
@@ -112,4 +115,25 @@ body, html {
     font-size: 10px;
     padding: 0.5em;
     border-radius: 10%;
+}
+
+.contact {
+    background: white;
+    width: 100%;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.email-input {
+    margin-top: 1em;
+}
+
+.footer {
+    background-color: #2d2d30;
+    color: white;
+    text-align: center;
+    padding: 2.5em;
 }
