@@ -1,0 +1,70 @@
+body, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto';
+}
+
+.navbar {
+    width: 100vw;
+    position: fixed;
+    background: #3a3a3a;
+    opacity: 0.8;
+}
+
+.navigation-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    height: 50px;
+    width: 80%;
+    color: #d5d5d5;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.spaced-out {
+    letter-spacing: 3px;
+}
+.nav-items {
+    display: inline;
+}
+
+.nav-items li {
+    display: inline-block;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #d5d5d5;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.carousel-temp img {
+    width: 100vw;
+}
+
+.bios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.the-band {
+    text-align: center;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 60%;
+}
+
+.tour-dates {
+    background: #2d2d30;
+}
