@@ -30,7 +30,7 @@ body, html {
 }
 
 .spaced-out {
-    letter-spacing: 3px;
+    letter-spacing: 8px;
 }
 .nav-items {
     display: inline;
@@ -57,14 +57,59 @@ body, html {
     justify-content: center;
 }
 
-.the-band {
+.section-content {
     text-align: center;
     margin: auto;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    width: 60%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 65%;
 }
 
 .tour-dates {
     background: #2d2d30;
+}
+
+.tour-tickets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buy-content {
+    background: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 1em;
+}
+
+.dark-btn {
+    background: #333;
+    color: white;
+    padding: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.tour-info {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.info-item {
+    background: white;
+    color: #bdbdbd;
+    border: 1px solid #ddd;
+    text-align: left;
+    padding-left: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sold-out {
+    background: #d9534f;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 0.5em;
+    border-radius: 10%;
 }
